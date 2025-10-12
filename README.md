@@ -1,4 +1,4 @@
-# Don't Look Up IP Encapsulation from DVB-S2(X) Parser
+# Don't Look Up IP encapsulation parser from raw DVB-S2(X)
 
 ## Features
 
