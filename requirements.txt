@@ -1,0 +1,18 @@
+# Core parsing libraries
+kaitaistruct>=0.10
+dpkt>=1.9.8
+
+# CRC calculations
+crccheck>=2.2
+
+# Network packet manipulation
+scapy>=2.5.0
+
+# Cryptography utilities
+cryptography>=41.0.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Plotting and visualization
+matplotlib>=3.7.0

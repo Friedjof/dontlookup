@@ -1,0 +1,2 @@
+from parser.utils.parser_utils import initialize_custom_logging_levels
+initialize_custom_logging_levels()
