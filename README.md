@@ -1,4 +1,5 @@
-# Don't Look Up IP encapsulation parser from raw DVB-S2(X)
+# Don't Look Up: IP encapsulation parser from raw DVB-S2(X) captures
+from TV Tuner cards
 
 ## Features
 
