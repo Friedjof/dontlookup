@@ -1,0 +1,14 @@
+diff --git a/drivers/media/usb/dvb-usb/tbs5927.c b/drivers/media/usb/dvb-usb/tbs5927.c
+old mode 100644
+new mode 100755
+index 0df754b44..254257d19
+--- a/drivers/media/usb/dvb-usb/tbs5927.c
++++ b/drivers/media/usb/dvb-usb/tbs5927.c
+@@ -414,6 +414,7 @@ static struct dvb_usb_device_properties tbs5927_properties = {
+ 	.adapter = {{
+ 		.num_frontends = 1,
+ 		.fe = {{
++			.caps = DVB_USB_ADAP_RECEIVES_RAW_PAYLOAD,
+ 			.frontend_attach = tbs5927_frontend_attach,
+ 			.streaming_ctrl = NULL,
+ 			.tuner_attach = tbs5927_tuner_attach,
