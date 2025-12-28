@@ -1,0 +1,19 @@
+[project]
+name = "dontlookup"
+version = "0.1.0"
+description = "IP encapsulation parser from raw DVB-S2(X) captures"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "kaitaistruct>=0.10",
+    "dpkt>=1.9.8",
+    "crccheck>=2.2",
+    "scapy>=2.5.0",
+    "cryptography>=41.0.0",
+    "tqdm>=4.65.0",
+    "matplotlib>=3.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -6,5 +6,9 @@ disclosure/*
 
 __pycache__
 
+# uv
+.venv/
+uv.lock
+
 lua/panasonic_ip_in_ip.lua
 promising/*

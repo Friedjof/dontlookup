@@ -14,6 +14,15 @@ First, install the required dependencies:
 pip install -r requirements.txt
 ```
 
+### Alternative: Using uv (faster)
+
+If you prefer [uv](https://github.com/astral-sh/uv) for faster dependency management:
+
+```bash
+uv sync              # Creates venv + installs dependencies
+uv run dontlookup.py capture_file.ts  # Run with uv
+```
+
 ## Usage
 
 ### Basic Usage
